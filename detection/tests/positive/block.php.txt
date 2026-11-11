@@ -1,0 +1,1 @@
+<?php /* SYNTHETIC TEST FIXTURE */ $i=file_get_contents('https://pro.ip-api.com/php/'.$ip.'?key=REDACTED&fields=countryCode'); if(in_array($i['countryCode'],['NO'])){$_SESSION['user_allowed']=true;}

@@ -1,0 +1,2 @@
+<!-- Benign page: mobile detection and a form posting to action.php, no BankID kit traits -->
+<meta name="robots" content="index, follow"><script>var isMobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent);</script><form action="action.php"></form>

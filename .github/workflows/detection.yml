@@ -1,0 +1,18 @@
+name: detection-tests
+on:
+  push:
+    paths: ["detection/**", ".github/workflows/detection.yml"]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  yara:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yara-python==4.5.1
+      - run: python detection/tests/run_tests.py

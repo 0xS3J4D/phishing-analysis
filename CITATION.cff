@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you reference this research, please cite it as below."
+title: "BankID Smishing Kit — Technical Analysis"
+authors:
+  - alias: "0xS3J4D"
+version: "2.0"
+date-released: "2026-11-06"
+url: "https://github.com/0xS3J4D/phishing-analysis"
+license: CC-BY-4.0
+keywords: [phishing, smishing, BankID, threat intelligence, MITRE ATT&CK, YARA]

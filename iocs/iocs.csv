@@ -1,0 +1,14 @@
+type,value,context,tlp
+telegram-bot-token,[REDACTED],config.php exfiltration endpoint,AMBER
+telegram-chat-id,[REDACTED],config.php receiving chat,AMBER
+telegram-handle,@[REDACTED],footer in exfil messages,AMBER
+api-key,[REDACTED],pro.ip-api.com key in block.php,AMBER
+domain,bankld[.][REDACTED],lookalike phishing domain from SMS,AMBER
+domain,scampage[.]net,redirect for non-NO visitors,CLEAR
+domain,scampages[.]net,redirect for desktop visitors,CLEAR
+domain,geoiptool[.]com,legitimate service linked in exfil messages,CLEAR
+filename,authorization.feb520e19d2d6db01d95.css,cloned BankID stylesheet,CLEAR
+filename,11siffer.php,step 2 national ID,CLEAR
+filename,6siffer.php,step 4 OTP,CLEAR
+filename,telefonnummer.php,step 3 phone,CLEAR
+filename,Personlig-passord.php,step 5 password,CLEAR

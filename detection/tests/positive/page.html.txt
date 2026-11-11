@@ -1,0 +1,1 @@
+<!-- SYNTHETIC TEST FIXTURE --><meta name="robots" content="noindex, nofollow"><link href="authorization.feb520e19d2d6db01d95.css"><script>var isMobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent);$.post("action.php")</script>

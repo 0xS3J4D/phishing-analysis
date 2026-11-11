@@ -1,0 +1,2 @@
+<?php // Benign: a shop notifying itself via Telegram
+file_get_contents("https://api.telegram.org/bot".$token."/sendMessage?text=New+order");

@@ -1,0 +1,4 @@
+<?php /* SYNTHETIC TEST FIXTURE - non-functional, reconstructed from strings in the report */
+if(isset($_POST['bankselect'])){} if(isset($_POST['11siffer'])){ $m="Bankid 11-siffer http://geoiptool.invalid/en/?ip="; }
+if(isset($_POST['6siffer'])){} if(isset($_POST['telefonnummer'])){}
+$u="https://api.telegram.org/bot"."REDACTED"; $f="Contact Me IF YOU NEED HELP";
